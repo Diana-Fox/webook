@@ -1,0 +1,21 @@
+syntax = "proto3";
+package webook.grpc;
+option go_package = "webook/grpc;webookgrpc";
+message UserRequest{
+  int64 id = 1;
+}
+//message SearchRequest {
+//  // 搜索的业务，如果没有传递，则是全局模糊搜索
+//  string biz = 1;
+//  string keyword = 2;
+//  int64 offset = 3;
+//  int64 limit = 4;
+//  // 用户 id
+//  int64 uid = 5;
+//}
+message UserResponse{
+  string msg = 1;
+}
+service UserService{
+  rpc Login(UserRequest)returns (UserResponse);
+}
