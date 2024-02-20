@@ -1,9 +1,9 @@
 package authinfo
 
 import (
+	"github.com/Diana-Fox/webook/internal/domian"
+	"github.com/Diana-Fox/webook/utils"
 	"github.com/gin-gonic/gin"
-	"webook/internal/domian"
-	"webook/utils"
 )
 
 type JwtAuthorityInfoMiddleware struct {

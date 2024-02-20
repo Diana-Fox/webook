@@ -5,17 +5,17 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"github.com/Diana-Fox/webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/domian/req"
+	"github.com/Diana-Fox/webook/internal/service"
+	svcmocks "github.com/Diana-Fox/webook/internal/service/mock"
+	"github.com/Diana-Fox/webook/ioc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"webook/internal/domian"
-	"webook/internal/domian/req"
-	"webook/internal/service"
-	svcmocks "webook/internal/service/mock"
-	"webook/ioc"
 )
 
 func TestUser_SingUp(t *testing.T) {

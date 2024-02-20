@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/domian"
 )
 
 type UserRepository interface {

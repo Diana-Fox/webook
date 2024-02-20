@@ -2,7 +2,7 @@ package dynamic
 
 import (
 	"context"
-	"webook/internal/service/sms"
+	"github.com/Diana-Fox/webook/internal/service/sms"
 )
 
 type Service struct {

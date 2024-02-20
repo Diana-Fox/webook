@@ -1,12 +1,12 @@
 package web
 
 import (
+	"github.com/Diana-Fox/webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/domian/req"
+	"github.com/Diana-Fox/webook/internal/service"
+	"github.com/Diana-Fox/webook/pkg/ginx/parse"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"webook/internal/domian"
-	"webook/internal/domian/req"
-	"webook/internal/service"
-	"webook/pkg/ginx/parse"
 )
 
 type userHandler struct {

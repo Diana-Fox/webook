@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/Diana-Fox/webook/ioc"
 	"github.com/gin-gonic/gin"
-	"webook/ioc"
 )
 
 func main() {

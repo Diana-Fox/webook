@@ -2,8 +2,8 @@ package cache
 
 import (
 	"context"
+	"github.com/Diana-Fox/webook/internal/domian"
 	"github.com/redis/go-redis/v9"
-	"webook/internal/domian"
 )
 
 type userCache struct {

@@ -11,8 +11,8 @@ package svcmocks
 
 import (
 	context "context"
+	domian "github.com/Diana-Fox/webook/internal/domian"
 	reflect "reflect"
-	domian "webook/internal/domian"
 
 	gomock "go.uber.org/mock/gomock"
 )

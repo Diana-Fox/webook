@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
+	"github.com/Diana-Fox/webook/internal/domian"
 	"gorm.io/gorm"
 	"time"
-	"webook/internal/domian"
 )
 
 type userDao struct {

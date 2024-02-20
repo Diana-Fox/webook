@@ -1,8 +1,8 @@
 package web
 
 import (
+	"github.com/Diana-Fox/webook/internal/domian/req"
 	"github.com/gin-gonic/gin"
-	"webook/internal/domian/req"
 )
 
 type UserHandler interface {

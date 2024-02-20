@@ -1,8 +1,8 @@
 package ioc
 
 import (
+	"github.com/Diana-Fox/webook/internal/web"
 	"github.com/gin-gonic/gin"
-	"webook/internal/web"
 )
 
 func InitGin(mdls []gin.HandlerFunc, hdl web.UserHandler) *gin.Engine {

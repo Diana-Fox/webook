@@ -2,7 +2,7 @@ package cache
 
 import (
 	"context"
-	"webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/domian"
 )
 
 type UserCache interface {

@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
+	"github.com/Diana-Fox/webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/repository"
 	"golang.org/x/crypto/bcrypt"
-	"webook/internal/domian"
-	"webook/internal/repository"
 )
 
 type userService struct {

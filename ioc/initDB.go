@@ -1,12 +1,12 @@
 package ioc
 
 import (
+	"github.com/Diana-Fox/webook/internal/repository"
+	"github.com/Diana-Fox/webook/internal/repository/dao"
+	"github.com/Diana-Fox/webook/internal/service"
+	"github.com/Diana-Fox/webook/internal/web"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"webook/internal/repository"
-	"webook/internal/repository/dao"
-	"webook/internal/service"
-	"webook/internal/web"
 )
 
 func InitDB() *gorm.DB {

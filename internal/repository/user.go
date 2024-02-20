@@ -2,8 +2,8 @@ package repository
 
 import (
 	"context"
-	"webook/internal/domian"
-	"webook/internal/repository/dao"
+	"github.com/Diana-Fox/webook/internal/domian"
+	"github.com/Diana-Fox/webook/internal/repository/dao"
 )
 
 type userRepository struct {

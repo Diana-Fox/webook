@@ -2,8 +2,8 @@ package ratelimit
 
 import (
 	"context"
-	"webook/internal/service/sms"
-	"webook/pkg/ginx/ratelimit"
+	"github.com/Diana-Fox/webook/internal/service/sms"
+	"github.com/Diana-Fox/webook/pkg/ginx/ratelimit"
 )
 
 type Service struct {

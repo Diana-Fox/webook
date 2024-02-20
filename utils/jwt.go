@@ -2,10 +2,10 @@ package utils
 
 import (
 	"errors"
+	"github.com/Diana-Fox/webook/internal/domian"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"time"
-	"webook/internal/domian"
 )
 
 // JWTUtils 改成泛型
