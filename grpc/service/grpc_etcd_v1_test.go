@@ -98,5 +98,5 @@ func (s *EtcdTestSuiteV1) TestEtcdClient() {
 	fmt.Println(login)
 }
 func TestEtcdV1(t *testing.T) {
-	suite.Run(t, new(EtcdTestSuite))
+	suite.Run(t, new(EtcdTestSuiteV1))
 }
