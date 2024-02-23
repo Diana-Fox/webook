@@ -12,7 +12,7 @@ func TestServer(t *testing.T) {
 	defer func() {
 		server.GracefulStop() //优雅退出
 	}()
-	userService := NewUserServiceRPC()
+	userService := NewUserServiceRPC("service")
 	//注册
 	webookgrpc.RegisterUserServiceServer(server, userService)
 	listen, err := net.Listen("tcp", ":8090")

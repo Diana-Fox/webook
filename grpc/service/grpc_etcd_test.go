@@ -50,7 +50,7 @@ func (s *EtcdTestSuite) TestServer() {
 	defer func() {
 		server.GracefulStop() //优雅退出
 	}()
-	userService := NewUserServiceRPC()
+	userService := NewUserServiceRPC("etcd")
 	//注册
 	webookgrpc.RegisterUserServiceServer(server, userService)
 	listen, err := net.Listen("tcp", ":8090")
